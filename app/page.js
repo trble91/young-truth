@@ -1,11 +1,18 @@
-"use client"
-import react from "react";
-
+"use client";
+import React from "react";
+import Header from "@/Components/Header.jsx";
+import Homepage from "@/Components/Screens/Homepage.jsx";
+import Footer from "@/Components/Footer.jsx";
+import "./globals.css";
 
 export default function Home() {
   return (
-   <>
-
-   </>
-  )
+    <>
+        <div className="snap-mandatory min-h-screen">
+          <Header />
+          <Homepage />
+          <Footer />
+        </div>
+    </>
+  );
 }
