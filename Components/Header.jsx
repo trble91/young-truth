@@ -24,18 +24,18 @@ export default function Header() {
       >
         <SocialIcon
           url="https://www.instagram.com/YoungTruth"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.facebook.com/OfficialYoungTruth"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
 
         <SocialIcon
           url="https://www.twitter.com/YoungTruth"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
       </motion.div>
@@ -57,18 +57,18 @@ export default function Header() {
       >
         <SocialIcon
           url="https://www.youtube.com/c/YoungTruth"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
         <SocialIcon
           url="mailto:info@youngtruth.net"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
 
         <SocialIcon
           url="https://linktr.ee/YoungTruth"
-          fgColor="black"
+          fgColor="white"
           bgColor="transparent"
         />
       </motion.div>
