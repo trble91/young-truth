@@ -8,7 +8,7 @@ export default function Footer() {
         <a href="" className='flex flex-col relative float-right'>
             <Image
               src="/YT2017.png"
-              alt="" width={70} height={70} />
+              alt="" width={100} height={100} />
        </a>
     </div>
 </footer>

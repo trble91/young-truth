@@ -1,20 +1,22 @@
 "use client";
-import Image from "next/image";
+
 import React from "react";
 import Header from "@/Components/Header.jsx";
 import Bio from "@/Components/Bio.jsx";
 import Footer from "@/Components/Footer.jsx";
-import "./globals.css";
 import Photography from "@/Components/Photography";
+import "./globals.css";
 
 export default function Home() {
   return (
     <>
-      <div className="snap-mandatory min-h-screen sm:minx-w-screen[200px]">
+      <div className="snap-mandatory min-h-screen sm:min-w-[200px]">
         <Header />
+        <div>
         <Photography />
         <Bio />
-        <Footer />
+        </div>
+        {/* <Footer /> */}
       </div>
     </>
   );

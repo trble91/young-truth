@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Footer from './Footer.jsx'
 
 export default function Photography() {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center snap-center'>
         <motion.div 
         initial={{
             y: 0,
@@ -24,6 +25,7 @@ export default function Photography() {
             <Image src="/Power.jpeg" alt="" height={300} width={300} className=''/>    
             <Image src="/Side.jpeg" alt="" height={300} width={300} className='rounded-r-2xl'/>  
         </motion.div>
+        <Footer />
     </div>
   )
 }
