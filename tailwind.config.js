@@ -15,7 +15,7 @@ module.exports = {
 "sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center",
 "flex flex-row items-center",
 'flex flex-col items-center snap-center',
-"flex max-h-screen",
+"flex max-h-screen"
 
     ]
   },
