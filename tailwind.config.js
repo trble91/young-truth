@@ -18,7 +18,9 @@ module.exports = {
         "flex max-h-screen",
         "rounded-l-2xl min-w-[200px]",
         "rounded-r-2xl min-w-[200px]",
-        "min-w-[200px]"
+        "min-w-[200px]",
+        "flex flex-row justify-center snap-center",
+        "relative p-40 pl-20 pr-20 sm:min-w-[400px]"
       ],
     },
     theme: {
