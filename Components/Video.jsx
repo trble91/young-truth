@@ -6,7 +6,7 @@ export default function Video() {
         <iframe
           width="300"
           height="200"
-          src="https://youtu.be/VVumTfYZmJM"
+          src="https://www.youtube.com/embed/VVumTfYZmJM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -24,7 +24,7 @@ export default function Video() {
         <iframe
           width="300"
           height="200"
-          src="https://youtu.be/yjjhYEbBCZQ"
+          src="https://www.youtube.com/embed/yjjhYEbBCZQ"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
