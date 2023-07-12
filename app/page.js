@@ -10,7 +10,7 @@ import "./globals.css";
 export default function Home() {
   return (
     <>
-      <div className="snap-mandatory min-h-screen sm:min-w-[200px]">
+      <div className="snap-mandatory min-h-screen">
         <Header />
         <div>
         <Photography />
