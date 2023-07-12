@@ -17,6 +17,7 @@ module.exports = {
         "flex flex-col items-center snap-center",
         "flex max-h-screen",
         "rounded-l-2xl min-w-[200px]",
+        "rounded-r-2xl min-w-[200px]",
         "min-w-[200px]"
       ],
     },
