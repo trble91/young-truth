@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Video() {
   return (
-      <div className="flex flex-row justify-center snap-center">
+      <div className="flex relative flex-row sm:top-8 sm:bottom-12 xl:top-12 xl:bottom-8 justify-center snap-center sm:min-w-[200px]">
         <iframe
           width="300"
           height="200"
