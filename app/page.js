@@ -3,7 +3,6 @@
 import React from "react";
 import Header from "@/Components/Header.jsx";
 import Bio from "@/Components/Bio.jsx";
-import Footer from "@/Components/Footer.jsx";
 import Photography from "@/Components/Photography";
 import Video from "@/Components/Video.jsx";
 import "./globals.css";
@@ -16,9 +15,8 @@ export default function Home() {
         <div>
           <Photography />
           <Bio />
-          <Video />
+            <Video />
         </div>
-        {/* <Footer /> */}
       </div>
     </>
   );
