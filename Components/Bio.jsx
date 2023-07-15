@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "./Video.jsx"
 
 export default function Bio() {
   return (
@@ -14,6 +15,9 @@ export default function Bio() {
           {'In 2017, Young Truth made a memorable appearance on Sway In The Morning\'s Friday Fire Cypher, further amplifying his buzz and solidifying his position as an exceptional lyricist. Born William "Bill" McMillan on September 20, 1987, Young Truth discovered his passion for music as an escape from the harsh realities of his Harlem neighborhood. Inspired by legendary MCs such as The Notorious B.I.G, Jay-Z, Nas, and The Wu-Tang Clan, he honed his craft, studying their styles and mastering the art of lyricism and songwriting. Young Truth\'s senior year in high school marked the beginning of his journey as he began penning his own rhymes, showcasing his talent and dedication.'},
           {'To broaden his artistic horizons, Young Truth collaborated with Smoke DZA on the track "Tenfold," demonstrating his ability to deliver impactful performances at a high level. Known for his affinity for golden era Hip-Hop sounds, this New York lyricist also partnered with former Roc-A-Fella signee Rell on the soulful "Vintage Love," revealing his versatility and ability to seamlessly blend elements of R&B into his music. With a distinctive blend of lyrical prowess, captivating performances, and a growing body of acclaimed work, Young Truth continues to make his mark on the music industry.His dedication to his craft and his unwavering passion for creating meaningful music have established him as a force to be reckoned with in the contemporary music landscape.'}
         </p>
+      </div>
+      <div>
+      <Video />
       </div>
     </div>
   );
