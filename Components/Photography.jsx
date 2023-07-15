@@ -5,7 +5,7 @@ import Footer from './Footer.jsx'
 
 export default function Photography() {
   return (
-    <div className='flex flex-col items-center snap-center'>
+    <div className='flex flex-col items-center snap-center mx-auto'>
         <motion.div 
         initial={{
             y: 0,

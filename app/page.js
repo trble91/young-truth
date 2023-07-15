@@ -11,14 +11,12 @@ import "./globals.css";
 export default function Home() {
   return (
     <>
-      <div className="snap-mandatory min-h-screen">
+      <div className="snap-mandatory max-h-screen overflow-y-auto">
         <Header />
         <div>
           <Photography />
           <Bio />
-          <div className="relative p-40 pl-20 pr-20 sm:min-w-[400px]">
-            <Video />
-          </div>
+          <Video />
         </div>
         {/* <Footer /> */}
       </div>
