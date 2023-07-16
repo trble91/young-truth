@@ -2,33 +2,36 @@ import React from "react";
 
 export default function Video() {
   return (
-      <div className="flex relative flex-row sm:top-8 sm:bottom-12 xl:top-12 xl:bottom-8 justify-center snap-center sm:min-w-[200px] -pt-20 pb-20">
+      <div className="flex relative flex-row justify-center snap-center -pt-20 pb-20">
         <iframe
-          width="200"
+          width="300"
           height="200"
           src="https://www.youtube.com/embed/VVumTfYZmJM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          className="sm:min-w-[100px]"
         ></iframe>
         <iframe
-          width="200"
+          width="300"
           height="200"
           src="https://www.youtube.com/embed/WsAwmEXpEho"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          className="sm:min-w-[100px]"
         ></iframe>
         <iframe
-          width="200"
+          width="300"
           height="200"
           src="https://www.youtube.com/embed/yjjhYEbBCZQ"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          className="sm:min-w-[100px]"
         ></iframe>
       </div>
   );
