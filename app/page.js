@@ -4,7 +4,6 @@ import React from "react";
 import Header from "@/Components/Header.jsx";
 import Bio from "@/Components/Bio.jsx";
 import Photography from "@/Components/Photography";
-import Video from "@/Components/Video.jsx";
 import "./globals.css";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
         <div>
           <Photography />
           <Bio />
-            {/* <Video /> */}
         </div>
       </div>
     </>
