@@ -26,7 +26,7 @@ module.exports = {
         "absolute top-12 uppercase tracking-[20px] text-gray-300 text-2xl sm:text-gray-300 snap-center",
         "flex absolute flex-row text-center text-gray-300 top-20 xl:flex-row items-center snap-center",
         "flex relative sm:text-sm md:text-sm xl:text-base",
-        "flex relative flex-row sm:top-8 sm:bottom-12 xl:top-12 xl:bottom-8 justify-center snap-center sm:max-w-[600px] -pt-20 pb-80",
+        "flex relative flex-row sm:top-8 sm:bottom-12 xl:top-12 xl:bottom-8 justify-center snap-center sm:max-w-[600px] -pt-20 pb-20",
 
 
       ],

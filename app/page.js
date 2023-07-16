@@ -4,7 +4,6 @@ import React from "react";
 import Header from "@/Components/Header.jsx";
 import Bio from "@/Components/Bio.jsx";
 import Video from "@/Components/Video.jsx";
-
 import Photography from "@/Components/Photography";
 import "./globals.css";
 
