@@ -21,9 +21,9 @@ export default function Photography() {
             duration: 2,
         }}
         className="flex max-h-screen">
-            <Image src="/Front.jpeg" alt="" height={300} width={300} className='rounded-l-2xl min-w-[200px]'/>    
-            <Image src="/Power.jpeg" alt="" height={300} width={300} className='min-w-[200px]'/>    
-            <Image src="/Side.jpeg" alt="" height={300} width={300} className='rounded-r-2xl min-w-[200px]'/>  
+            <Image src="/Front.jpeg" alt="" height={300} width={300} className='rounded-l-2xl min-w-[100px] xl:min-w-[200px]'/>    
+            <Image src="/Power.jpeg" alt="" height={300} width={300} className='min-w-[100px] xl:min-w-[200px]'/>    
+            <Image src="/Side.jpeg" alt="" height={300} width={300} className='rounded-r-2xl min-w-[100px] xl:min-w-[200px]'/>  
         </motion.div>
         <Footer />
     </div>
