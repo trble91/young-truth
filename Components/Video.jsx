@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Video() {
   return (
-      <div className="flex relative flex-row justify-center snap-center -pt-20 pb-20">
+      <div className="flex relative flex-row justify-center snap-center xl:-pt-20 xl:pb-20">
+        <div>
         <iframe
           width="300"
           height="200"
@@ -10,7 +11,6 @@ export default function Video() {
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
-          className="sm:min-w-[100px]"
         ></iframe>
         <iframe
           width="300"
@@ -20,7 +20,6 @@ export default function Video() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
-          className="sm:min-w-[100px]"
         ></iframe>
         <iframe
           width="300"
@@ -30,8 +29,8 @@ export default function Video() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
-          className="sm:min-w-[100px]"
         ></iframe>
+        </div>
       </div>
   );
 }

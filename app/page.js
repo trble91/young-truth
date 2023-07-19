@@ -16,8 +16,8 @@ export default function Home() {
           <Photography />
           <Bio />
         </div>
-        <div className="flex relative justify-center">
-        <Video />
+        <div className="flex relative flex-row justify-center">
+         <Video />
         </div>
       </div>
     </>
